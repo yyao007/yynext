@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Parallax from 'parallax';
+import Parallax from 'parallax-js';
 
 export default class extends Component {
     componentDidMount() {
@@ -27,7 +27,7 @@ export default class extends Component {
     }
 
     componentWillUnmount() {
-        this.parallax.disable();
+        this.parallax.destroy();
     }
 
     render() {
