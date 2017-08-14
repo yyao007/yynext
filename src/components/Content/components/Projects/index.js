@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ParallaxPlugin from '../Parallax';
 import Button from '../Button';
 import Tilt from '../Tilt';
 import Hidden from '../Hidden';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import Tilt from 'tilt.js';
+import 'tilt.js/dest/tilt.jquery.min.js';
 
 export default class extends Component {
     componentDidMount() {

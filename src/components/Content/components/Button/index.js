@@ -8,10 +8,6 @@ let Events = Scroll.Events;
 let scrollSpy = Scroll.scrollSpy;
 
 export default class extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         Events.scrollEvent.register('begin', function(to, element) {
             // console.log("begin", arguments);

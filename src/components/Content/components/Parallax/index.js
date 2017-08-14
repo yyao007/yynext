@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Parallax from 'parallax-js';
+import Parallax from 'parallax-js/dist/parallax.min.js';
 
 export default class extends Component {
     componentDidMount() {

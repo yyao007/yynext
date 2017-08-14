@@ -9,10 +9,6 @@ let Events = Scroll.Events;
 let scrollSpy = Scroll.scrollSpy;
 
 class Sidebar extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         Events.scrollEvent.register('begin', function(to, element) {
             // console.log("begin", arguments);

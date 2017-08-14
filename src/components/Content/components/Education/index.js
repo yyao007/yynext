@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ParallaxPlugin from '../Parallax';
+// import ParallaxPlugin from '../Parallax';
 import Button from '../Button';
 import './Education.css'
 
