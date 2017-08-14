@@ -1,0 +1,79 @@
+.bm-burger-button {
+    position: fixed;
+    width: 2.9rem;
+    height: 2.1rem;
+    left: 36px;
+    top: 36px;
+    left: initial;
+    right: 36px;
+}
+
+.bm-cross-button {
+    right: 85%!important;
+}
+
+.bm-cross {
+    background: rgba(0, 0, 0, 0.7);
+    height: 1vw!important;
+    min-height: 10px;
+}
+
+#sidebar {
+    width: 15.5%!important;
+    min-width: 200px!important;
+    height: 100%;
+}
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-menu {
+    z-index: 1000;
+    background: #373a47;
+    text-transform: uppercase;
+}
+
+.bm-item-list h2 {
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 1.5em 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    text-align: center;
+    box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+}
+
+i.lg-icon {
+    font-size: 3.3rem;
+    margin-right: 0;
+}
+
+.bm-item-list a {
+    cursor: pointer;
+    padding: .8em 1.5em;
+    /*font-weight: 700;*/
+    color: #d8d7d2;
+    font-size: 1.5rem;
+    /*text-align: center;*/
+    box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1), .3s ease!important;
+    -moz-transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1), .3s ease!important;
+    -ms-transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1), .3s ease!important;
+    -o-transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1), .3s ease!important;
+    transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1), .3s ease!important;
+}
+
+i.fa {
+    text-align: center;
+    width: 30px;
+}
+
+.bm-item-list a:hover, .bm-item-list a:focus {
+    background: #00b5ad;
+    text-decoration: none;
+}
+
+.active {
+    background: #00b5ad!important;
+}

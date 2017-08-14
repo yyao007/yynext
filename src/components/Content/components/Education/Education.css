@@ -1,0 +1,28 @@
+.item {
+    margin: 2em auto;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.date {
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 0;
+}
+
+.date span {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.header {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item .description {
+    margin: 10px 0;
+}

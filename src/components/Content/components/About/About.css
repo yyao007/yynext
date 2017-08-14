@@ -1,0 +1,123 @@
+#about {
+    background: #DCDDD8; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #E5E4DF, #DCDDD8, #C8C8C8);
+     background: linear-gradient(to right, #E5E4DF, #DCDDD8, #C8C8C8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.page-header {
+    margin: 20px 0;
+    padding: 0;
+    color: #00b5ad;
+}
+
+.page-header h1 {
+    /*padding-left: 15px;*/
+    margin: 10px 15px;
+}
+
+.page-header hr {
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(0,181,173), rgba(0,181,173, 0.5));
+    width: 100%;
+    float: left;
+}
+
+@media screen and (min-width: 768px) {
+    #about .row {
+        margin: 20vh auto;
+        width: 70%;
+        font-size: 16px;
+        /*text-align: center;*/
+    }
+}
+
+
+.thumbnail {
+    margin: 20px auto;
+    padding: 0;
+    /*float: right;*/
+    width: 150px;
+    height: 150px;
+    border: none;
+    background: none;
+}
+
+.avatar {
+    margin: -55% -40%;
+    height: 200%;
+    width: 180%;
+    background: url("/images/avatar6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3s ease-in-out forwards infinite;
+    -moz-animation: swinging 3s ease-in-out forwards infinite;
+    -o-animation: swinging 3s ease-in-out forwards infinite;
+    animation: swinging 3s ease-in-out forwards infinite;
+}
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+
+.thumbnail .scene {
+    border-radius: 50%;
+}
+
+#about .title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.flag {
+    display: inline-flex;
+    width: 24px;
+    height: 20px;
+    margin-left: 20px;
+    padding: 0;
+    /*float: right;*/
+    background: url('/images/flags.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.flag.flag-cn {
+    background-position: 0 0;
+}
+
+.description {
+    margin: 0 10px 10px 10px;
+    line-height: 1.7em;
+}
+
+.location {
+    float: right;
+    margin-right: 20px;
+    line-height: 1em;
+}

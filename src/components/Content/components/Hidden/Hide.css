@@ -1,0 +1,12 @@
+.hideme {
+    opacity: 0;
+}
+
+.hi {
+    display: block;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}

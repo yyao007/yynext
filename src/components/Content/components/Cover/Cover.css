@@ -1,0 +1,77 @@
+.jumbotron {
+    margin: 20vh auto;
+    background: none;
+    width: 70%;
+    min-width: 200px;
+    text-align: center;
+    z-index: -1;
+}
+
+.jumbotron .description {
+    padding: 10px 25px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron .description {
+        padding: 10px 10px;
+        font-size: 1.4rem;
+        z-index: -100;
+    }
+}
+
+hr {
+  border : 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+}
+
+.scene {
+    height: 100%;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    height: 100%;
+    background: url("/images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.layer1 {
+    /*width: 100%;*/
+    height: 100%;
+    background: url("/images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+@media screen and (min-width: 1232px) {
+    .content {
+        /*left: 10%!important;*/
+    }
+}
+
+#cover {
+    /*background: url("/images/cover.jpg");*/
+    font-family: sans-serif;
+}
+
+/*.Tilt {
+    transform-style: preserve-3d;
+}
+
+.Tilt-inner {
+  transform: translateZ(50px);
+}*/
