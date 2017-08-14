@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ParallaxPlugin from '../Parallax';
 import Button from '../Button';
-import './Cover.css';
+import './Skills.css';
 
 export default class extends Component {
     render() {
         return (
-            <div id="cover" className="section">
+            <div id="skills" className="section">
                 <ParallaxPlugin>
                     <div className="layer" data-depth="0.00">
                         <div className="background"></div>
@@ -15,16 +15,10 @@ export default class extends Component {
                         <div className="layer1"></div>
                     </div>
                     <div className="layer" data-depth="0.40">
-                        <div className="container content">
-                            <div className="jumbotron">
-                                <h1>Yuan Yao</h1>
-                                <hr/>
-                                <p className="description">{'I\'m a new grad seeking for full-time software engineer and full stack web developer roles'}</p>
-                            </div>
-                        </div>
+                        <div className="layer2"></div>
                     </div>
                 </ParallaxPlugin>
-                <Button next="about" />
+                <Button next="contact" />
             </div>
         )
     }
