@@ -1,3 +1,15 @@
+#sidebar {
+    width: 18%!important;
+    height: 100%;
+    font-family: "Quantico", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    #sidebar {
+        width: 200px!important;
+    }
+}
+
 .bm-burger-button {
     position: fixed;
     width: 2.9rem;
@@ -16,12 +28,6 @@
     background: rgba(0, 0, 0, 0.7);
     height: 1vw!important;
     min-height: 10px;
-}
-
-#sidebar {
-    width: 15.5%!important;
-    min-width: 200px!important;
-    height: 100%;
 }
 
 .bm-burger-bars {

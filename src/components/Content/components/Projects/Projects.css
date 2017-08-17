@@ -1,12 +1,19 @@
 #projects {
     background: #14b5ae;
-    height: 100%;
+    /*background: #0cebeb; */
+    background: -webkit-linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2);
+    height: 110%;
+    padding-bottom: 50px;
 }
 
 #projects .page-header {
     color: #fff;
 }
 
+#projects .page-header hr {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,.1));
+}
 
 #projects .row {
     margin: 0 auto;
@@ -14,10 +21,14 @@
     font-size: 16px;
 }
 
-.blog {
-    height: 50vh;
+#projects .next-page {
+    bottom: -50px;
+}
+
+.project {
+    height: 45vh;
     /*width: 100%;*/
-    margin: 10px 20px;
+    margin: 25px 20px;
     display: block;
     background-size: cover!important;
     background-repeat: no-repeat!important;
@@ -26,16 +37,10 @@
     border-radius: 2%;
 }
 
-@media screen and (max-width: 768px)  {
-    .blog {
-        /*width: 70%;*/
-    }
-}
-
 .tilt-inner {
     transform: translateZ(30px);
     margin: 10px auto;
-    /*padding: 0 30px;*/
+    padding: 0 20px;
     position: absolute;
     top: 15%;
     left: 5%;
@@ -50,11 +55,11 @@
     transition: all .3s ease-in-out;
 }
 
-.blog:hover > .tilt-inner {
+.project:hover > .tilt-inner {
     opacity: 1.0;
 }
 
-.blog:after {
+.project:after {
     content: '';
 	position: absolute;
 	z-index: -1;
@@ -62,7 +67,7 @@
 	height: 0;
 	top: 50%;
 	left: 50%;
-	background: rgba(0, 181, 173, .7);
+	background: rgba(0, 181, 173, .85);
 	opacity: 0;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
@@ -76,23 +81,52 @@
 }
 
 
-.blog:hover:after {
+.project:hover:after {
     height: 75%;
 	opacity: 1;
 }
 
-.blog:active:after {
+.project:active:after {
     height: 100.5%;
 	opacity: 1;
 }
 
-.project.title {
-    font-size: 1.5rem;
+.project .title {
+    font-size: 2rem;
     text-align: center;
 }
 
-.project.description {
+.project .description {
+    font-size: 1.7rem;
+}
+
+.project .date {
+    float: right;
+    margin: 1rem;
     font-size: 1.2rem;
+}
+
+.project .date span {
+    margin: 3px;
+}
+
+@media screen and (max-width: 768px)  {
+    .project {
+        margin: 30px 0;
+    }
+
+    .project .title {
+        font-size: 1.7rem;
+    }
+
+    .project .description {
+        font-size: 1.3rem;
+    }
+
+    .tilt-inner {
+        margin: 5px auto;
+        padding: 5px;
+    }
 }
 
 .link-wrap {
@@ -199,6 +233,11 @@
 	transition: transform ease-out 0.1s, background 0.2s;
 }
 
+.link:focus, .link:active{
+    text-decoration: none;
+    color: #fff;
+}
+
 .link:before {
     font-family: FontAwesome;
     content: "\f0c1";
@@ -210,6 +249,10 @@
 	text-transform: none;
 	display: block;
 	-webkit-font-smoothing: antialiased;
+}
+
+.github.link:before {
+    content: "\f113";
 }
 
 .link:after {

@@ -28,12 +28,14 @@ export default class extends Component {
     }
 
     render() {
+        let buttonClass = this.props.buttonClass || "next-page";
+        let offset = this.props.offset || 0;
         return (
             <div className="button">
-                <Link className="next-page" activeClass="active" to={this.props.next} spy={false} smooth={"easeInOutQuart"} duration={1000}>
+                <Link className={buttonClass} activeClass="active" to={this.props.next} spy={false} smooth={"easeInOutQuart"} duration={1600} offset={offset}>
                     <span/>
                     <span/>
-                    Scroll
+                    <p className="scroll-text">Scroll</p>
                 </Link>
             </div>
         );

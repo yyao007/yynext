@@ -39,7 +39,7 @@ export default class extends Component {
                         </div>
                     </Hidden>
                 </div>
-                <Button next="education" />
+                <Button next="projects" />
             </div>
         )
     }

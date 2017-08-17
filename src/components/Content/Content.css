@@ -5,3 +5,29 @@
 .content {
     height: 100%;
 }
+
+.container {
+    height: 100%;
+}
+
+.page-header {
+    margin: 20px 0;
+    padding: 0;
+    color: #00b5ad;
+}
+
+.page-header h1 {
+    font-family: "Quantico", sans-serif;
+    margin: 10px 15px;
+    text-transform: uppercase;
+}
+
+.page-header hr {
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(0,181,173), rgba(0,181,173, 0.5));
+    width: 100%;
+    float: left;
+}

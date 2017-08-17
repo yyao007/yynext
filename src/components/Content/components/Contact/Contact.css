@@ -1,0 +1,68 @@
+#contact {
+    height: auto;
+    background: #24292e;
+}
+
+#contact .page-header {
+    color: rgba(255, 255, 255, .7);
+}
+
+#contact .page-header hr {
+    background-image: linear-gradient(to right, rgba(255,255,255,.7), rgba(255,255,255,.1));
+}
+
+#contact .row {
+    margin: 10vh auto;
+    line-height: 5em;
+    text-align: center;
+}
+
+#contact .button {
+    margin: 70px;
+}
+
+.media {
+    font-size: 1.6em;
+    color: rgba(255, 255, 255, .5);
+    margin: 10px 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.media:hover, .media:active, .media:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mail {
+    font-size: 1.3em;
+}
+
+.mail i {
+    margin: 10px;
+}
+
+.footer {
+    font-family: "Average Sans", sans-serif;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    font-size: 12px;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: underline;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #fff;
+}

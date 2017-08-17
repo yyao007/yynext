@@ -34,25 +34,20 @@ class Sidebar extends Component {
                 <h2>
                     <i className="fa fa-y-combinator lg-icon" aria-hidden="true"></i> yynext
                 </h2>
-                <Link className="menu-user" activeClass="active" to="cover" spy={true} smooth={"easeInOutQuart"} duration={1000}>
+                <Link className="menu-user" activeClass="active" to="cover" spy={true} smooth={"easeInOutQuart"} duration={1600}>
                     <i className="fa fa-home" aria-hidden="true"></i> Home
                 </Link>
-                 <Link className="menu-user" activeClass="active" to="about" spy={true} smooth={"easeInOutQuart"} duration={1000}>
+                 <Link className="menu-user" activeClass="active" to="about" spy={true} smooth={"easeInOutQuart"} duration={1600} offset={-10}>
                     <i className="fa fa-id-card" aria-hidden="true"></i> About
                 </Link>
-                <Link className="menu-user" activeClass="active" to="education" spy={true} smooth={"easeInOutQuart"} duration={1000}>
-                    <i className="fa fa-graduation-cap" aria-hidden="true"></i> Education
-                </Link>
-                <Link className="menu-user" activeClass="active" to="experience" spy={true} smooth={"easeInOutQuart"} duration={1000}>
-                    <i className="fa fa-briefcase" aria-hidden="true"></i> Experience
-                </Link>
-                <Link className="menu-user" activeClass="active" to="projects" spy={true} smooth={"easeInOutQuart"} duration={1000}>
+
+                <Link className="menu-user" activeClass="active" to="projects" spy={true} smooth={"easeInOutQuart"} duration={1600}>
                     <i className="fa fa-code" aria-hidden="true"></i> Projects
                 </Link>
-                <Link className="menu-user" activeClass="active" to="skills" spy={true} smooth={"easeInOutQuart"} duration={1000}>
+                <Link className="menu-user" activeClass="active" to="skills" spy={true} smooth={"easeInOutQuart"} duration={1600}>
                     <i className="fa fa-bolt" aria-hidden="true"></i> Skills
                 </Link>
-                <Link className="menu-user" activeClass="active" to="contact" spy={true} smooth={"easeInOutQuart"} duration={1000}>
+                <Link className="menu-user" activeClass="active" to="contact" spy={true} smooth={"easeInOutQuart"} duration={2000} offset={-270}>
                     <i className="fa fa-address-book" aria-hidden="true"></i> Contact
                 </Link>
 

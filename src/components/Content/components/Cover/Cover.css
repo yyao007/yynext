@@ -1,3 +1,7 @@
+#cover {
+    /*font-family: 'Bubblegum Sans', cursive;*/
+}
+
 .jumbotron {
     margin: 20vh auto;
     background: none;
@@ -7,6 +11,11 @@
     z-index: -1;
 }
 
+.jumbotron h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 7rem;
+}
+
 .jumbotron .description {
     padding: 10px 25px;
     font-size: 2rem;
@@ -14,9 +23,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 4.5rem;
+    }
+
     .jumbotron .description {
         padding: 10px 10px;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         z-index: -100;
     }
 }
@@ -53,19 +66,6 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-}
-
-
-
-@media screen and (min-width: 1232px) {
-    .content {
-        /*left: 10%!important;*/
-    }
-}
-
-#cover {
-    /*background: url("/images/cover.jpg");*/
-    font-family: sans-serif;
 }
 
 /*.Tilt {

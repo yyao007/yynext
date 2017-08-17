@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Cover from './components/Cover';
 import About from './components/About';
-import Education from './components/Education';
+// import Education from './components/Education';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Skills from './components/Skills';
 import './Content.css'
 
 class Content extends Component {
@@ -11,8 +13,9 @@ class Content extends Component {
             <div className="content">
                 <Cover />
                 <About />
-                <Education />
                 <Projects />
+                <Skills />
+                <Contact />
             </div>
 
         )
