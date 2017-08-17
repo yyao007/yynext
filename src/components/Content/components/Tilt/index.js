@@ -8,7 +8,7 @@ export default class extends Component {
         this.tilt = this.$el.tilt({
             perspective: 1000,
             glare: true,
-            maxGlare: .6,
+            maxGlare: .4,
         });
     }
 

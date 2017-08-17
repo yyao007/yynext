@@ -1,10 +1,11 @@
 #projects {
     background: #14b5ae;
     /*background: #0cebeb; */
-    background: -webkit-linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2);
+    /*background: -webkit-linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2); */
+    /*background: linear-gradient(to bottom, #14b5ae, #29ffc6, #20e3b2);*/
     height: 110%;
     padding-bottom: 50px;
+    font-family: "Average Sans", sans-serif;
 }
 
 #projects .page-header {
@@ -67,7 +68,7 @@
 	height: 0;
 	top: 50%;
 	left: 50%;
-	background: rgba(0, 181, 173, .85);
+	background: rgba(0, 181, 173, .9);
 	opacity: 0;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
@@ -97,13 +98,13 @@
 }
 
 .project .description {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 .project .date {
     float: right;
-    margin: 1rem;
-    font-size: 1.2rem;
+    margin: 10px;
+    font-size: 1.5rem;
 }
 
 .project .date span {
@@ -121,6 +122,12 @@
 
     .project .description {
         font-size: 1.3rem;
+    }
+
+    .project .date {
+        float: right;
+        margin: 2px 10px 10px 0;
+        font-size: 1.2rem;
     }
 
     .tilt-inner {
@@ -299,10 +306,10 @@
 	}
 	40% {
 		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #00b5ad, 0 0 0 10px rgba(255,255,255,0.5);
 	}
 	100% {
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #00b5ad, 0 0 0 10px rgba(255,255,255,0.5);
 		-webkit-transform: scale(1.5);
 		opacity: 0;
 	}
@@ -313,10 +320,10 @@
 	}
 	40% {
 		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #00b5ad, 0 0 0 10px rgba(255,255,255,0.5);
 	}
 	100% {
-		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,0.5);
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #00b5ad, 0 0 0 10px rgba(255,255,255,0.5);
 		-moz-transform: scale(1.5);
 		opacity: 0;
 	}

@@ -22,9 +22,9 @@
 }
 
 .media {
-    font-size: 1.6em;
+    font-size: 2em;
     color: rgba(255, 255, 255, .5);
-    margin: 10px 10px;
+    margin: 20px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -38,11 +38,11 @@
 }
 
 .mail {
-    font-size: 1.3em;
+    font-size: 2.5rem;
 }
 
 .mail i {
-    margin: 10px;
+    margin: 20px;
 }
 
 .footer {
@@ -50,7 +50,7 @@
     margin: 0 auto 40px auto;
     text-align: center;
     color: rgba(255, 255, 255, .5);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer a {
@@ -65,4 +65,19 @@
 
 .footer a:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .mail {
+        font-size: 2rem;
+    }
+
+    .mail i {
+        margin: 10px;
+    }
+
+    .media {
+        font-size: 2rem;
+        margin: 10px;
+    }
 }

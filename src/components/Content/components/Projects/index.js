@@ -98,7 +98,7 @@ export default class extends Component {
                 title: 'CUDA Backpropagation',
                 description: {__html: 'This is the backpropagation algorithm implemented in CUDA C.'},
                 url: 'https://github.com/yyao007/CUDA_backprop',
-                background: 'url("/images/cuda.png")',
+                background: 'url("/images/CUDA.png")',
                 linkClass: 'github',
                 startDate: 'October 2016',
                 endDate: 'December 2016',

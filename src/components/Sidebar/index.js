@@ -47,7 +47,7 @@ class Sidebar extends Component {
                 <Link className="menu-user" activeClass="active" to="skills" spy={true} smooth={"easeInOutQuart"} duration={1600}>
                     <i className="fa fa-bolt" aria-hidden="true"></i> Skills
                 </Link>
-                <Link className="menu-user" activeClass="active" to="contact" spy={true} smooth={"easeInOutQuart"} duration={2000} offset={-270}>
+                <Link className="menu-user" activeClass="active" to="contact" spy={true} smooth={"easeInOutQuart"} duration={2000} offset={-400}>
                     <i className="fa fa-address-book" aria-hidden="true"></i> Contact
                 </Link>
 

@@ -4,7 +4,7 @@
      background: linear-gradient(to right, #E5E4DF, #DCDDD8, #C8C8C8);
 
     font-family: "Average Sans", sans-serif;
-    /*font-size: 1.1em;*/
+    /*font-size: 1.4rem;*/
     height: 100vh;
 }
 
@@ -12,7 +12,7 @@
     #about .row {
         margin: 20vh auto;
         width: 70%;
-        font-size: 1.3em;
+        font-size: 1.6em;
         /*text-align: center;*/
     }
 }
