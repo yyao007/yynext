@@ -55,7 +55,7 @@ export default class extends Component {
             {
                 title: 'Color Guess Game',
                 description: {__html: 'This is a RGB gussing game. You need to pick the right color from 3 or 6 color squares based on the given rgb value on the top. This app is built with JavaScript, Bootstrap3, HTML5 and CSS3.'},
-                url: 'http://yynext.com/colorgame',
+                url: '/colorgame',
                 background: 'url("/images/colorgame.png")',
                 startDate: 'July 2017',
                 endDate: 'July 2017',
@@ -63,7 +63,7 @@ export default class extends Component {
             {
                 title: 'Circles',
                 description: {__html: 'This is a simple clone of <a href="http://patatap.com/">patatap</a>. Press any letter key to start! This app is built with paper.js to draw all the animations'},
-                url: 'http://yynext.com/patatap',
+                url: '/patatap',
                 background: 'url("/images/patatap.png")',
                 startDate: 'July 2017',
                 endDate: 'July 2017',
@@ -71,7 +71,7 @@ export default class extends Component {
             {
                 title: 'Todo List',
                 description: {__html: 'This is a simple todo list. This app is built with JavaScript, HTML and CSS without a backend. All todos would be reset if one refresh the page.'},
-                url: 'http://yynext.com/TodoList',
+                url: '/TodoList',
                 background: 'url("/images/todolist1.png")',
                 startDate: 'July 2017',
                 endDate: 'July 2017',
