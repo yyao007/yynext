@@ -8,7 +8,7 @@
     height: 100vh;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1600px) {
     #about .row {
         margin: 20vh auto;
         width: 70%;
@@ -17,6 +17,14 @@
     }
 }
 
+@media screen and (min-width: 1140px) {
+    #about .row {
+        margin: 20vh auto;
+        width: 80%;
+        font-size: 1.95rem;
+        /*text-align: center;*/
+    }
+}
 
 .thumbnail {
     margin: 20px auto;
