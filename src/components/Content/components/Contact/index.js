@@ -25,7 +25,7 @@ export default class extends Component {
                                 <a className="media" href="https://github.com/yyao007" title="GitHub"><i className="fa fa-github" aria-hidden="true" /></a>
                                 <a className="media" href="https://www.linkedin.com/in/yuan-yao-0338a212b/" title="LinkedIn"><i className="fa fa-linkedin" aria-hidden="true" /></a>
                                 <a className="media" href="https://www.facebook.com/yuan.yao.1232" title="Facebook"><i className="fa fa-facebook-official" aria-hidden="true" /></a>
-                                <a className="media" href="/resume/resume_en.pdf" title="Resume"><i className="fa fa-file-pdf-o" aria-hidden="true" /></a>
+                                <a className="media" href="https://drive.google.com/open?id=1PObNVXyKKEFEP-HGVeONnpdZ_wQUWla6" title="Resume"><i className="fa fa-file-pdf-o" aria-hidden="true" /></a>
                             </div>
                         </div>
                         <div className="footer">
